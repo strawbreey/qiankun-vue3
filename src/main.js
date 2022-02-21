@@ -12,7 +12,7 @@ let history = null;
 
 function render(props = {}) {
   const { container } = props;
-  history = createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/app' : '/');
+  history = createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/qiankun-vue3' : '/');
   router = createRouter({
     history,
     routes,
